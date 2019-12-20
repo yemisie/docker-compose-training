@@ -1,5 +1,5 @@
-# Node.js version 6 base image
-FROM node:6
+# Node.js version 8 base image
+FROM node:8
 
 # use nodemon for development
 RUN npm install --global nodemon
