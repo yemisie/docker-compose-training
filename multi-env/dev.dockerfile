@@ -2,7 +2,7 @@
 FROM node:6
 
 # use nodemon for development
-RUN npm install --global nodemon
+RUN npm install --global nodemon@2.0.4
 
 # install package.json dependencies
 RUN mkdir src
